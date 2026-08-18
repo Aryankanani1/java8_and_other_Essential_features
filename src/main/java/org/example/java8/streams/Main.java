@@ -37,6 +37,6 @@ public class Main {
         }
         System.out.println(sumSquare);
 
-        int sumSquare_stream = list.stream().filter()
+        int sumSquare_stream = list.stream().filter(number -> number %2 ==0).
     }
 }
