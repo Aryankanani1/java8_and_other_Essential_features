@@ -17,4 +17,6 @@ public class Main {
         Stream<Integer> integerStream = Stream.of(integers);
         integerStream.forEach(System.out::println);
     }
+
+
 }
