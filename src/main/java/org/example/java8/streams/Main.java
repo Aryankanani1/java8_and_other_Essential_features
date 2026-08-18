@@ -32,6 +32,7 @@ public class Main {
             if(integer % 2 == 0){
                 int square = integer * integer;
             }
+            
         }
     }
 
