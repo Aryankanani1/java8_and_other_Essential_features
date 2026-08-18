@@ -37,6 +37,7 @@ public class Main {
         }
         System.out.println(sumSquare);
 
-        int sumSquare_stream = list.stream().filter(number -> number %2 ==0).mapToInt(n -> n* n).sum().
+        int sumSquare_stream = list.stream().filter(number -> number %2 ==0).mapToInt(n -> n* n).sum();
+        System.out.println(sumSquare_stream);
     }
 }
