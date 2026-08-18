@@ -32,9 +32,10 @@ public class Main {
         for(Integer integer : list){
             if(integer % 2 == 0){
                 int square = integer * integer;
+                sumSquare += square;
             }
-           
         }
+        System.out.println(sumSquare);
     }
 
 
