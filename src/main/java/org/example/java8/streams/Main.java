@@ -10,6 +10,6 @@ public class Main {
         IntStream intStream = Arrays.stream(array);
         intStream.forEach(System.out::println);
 
-        
+        //
     }
 }
