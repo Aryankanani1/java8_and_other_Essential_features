@@ -28,11 +28,12 @@ public class Main {
         list.add(5);
         list.add(6);
 
+        int sumSquare = 0;
         for(Integer integer : list){
             if(integer % 2 == 0){
                 int square = integer * integer;
             }
-            
+           
         }
     }
 
