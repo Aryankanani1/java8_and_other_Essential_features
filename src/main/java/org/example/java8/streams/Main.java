@@ -14,6 +14,7 @@ public class Main {
 
         //object type array
         Integer[] integers = {2,1,3,4};
-        Stream<Integer> integerStream = 
+        Stream<Integer> integerStream = Stream.of(integers);
+        
     }
 }
