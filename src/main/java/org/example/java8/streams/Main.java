@@ -38,6 +38,6 @@ public class Main {
         System.out.println(sumSquare);
     }
 
-    int sumSquare_stream = 
+    int sumSquare_stream = list.
 
 }
