@@ -1,6 +1,8 @@
 package org.example.java8.streams;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
@@ -16,6 +18,21 @@ public class Main {
         Integer[] integers = {2,1,3,4};
         Stream<Integer> integerStream = Stream.of(integers);
         integerStream.forEach(System.out::println);
+
+        // without stream
+        List<Integer> list = new ArrayList<>();
+        list.add(1);
+        list.add(2);
+        list.add(3);
+        list.add(4);
+        list.add(5);
+        list.add(6);
+
+        for(Integer integer : list){
+            if(integer % 2 == 0){
+                int squre =
+            }
+        }
     }
 
 
