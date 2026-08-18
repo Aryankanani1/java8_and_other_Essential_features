@@ -30,7 +30,7 @@ public class Main {
 
         for(Integer integer : list){
             if(integer % 2 == 0){
-                int squre =
+                int square = integer * integer;
             }
         }
     }
