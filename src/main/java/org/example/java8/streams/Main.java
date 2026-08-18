@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
         int [] array = {1,2,3,4,5,6};
         IntStream intStream = Arrays.stream(array);
-        System.out.println("int stream: " + intStream);
+       intStream.forEach();
 
     }
 }
