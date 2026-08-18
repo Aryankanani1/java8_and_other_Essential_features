@@ -12,6 +12,7 @@ public class Main {
 
 
         //object type array
-        Integer[] integers = Arr{}
+        Integer[] integers = {2,1,3,4};
+        
     }
 }
